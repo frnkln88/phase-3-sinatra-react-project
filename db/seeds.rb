@@ -178,21 +178,285 @@ movie23 = Movie.create(
 puts "Creating reviews..."
 Review.create(
     rating: rand(1..10),
-    comment: Faker::Lorem.sentence,
+    comment: Faker::Quote.singular_siegler,
     user_id: user1.id,
     movie_id: movie1.id
 )
 Review.create(
     rating: rand(1..10),
-    comment: Faker::Lorem.sentence,
-    user_id: user1.id,
-    movie_id: movie2.id
-)
-Review.create(
-    rating: rand(1..10),
-    comment: Faker::Lorem.sentence,
+    comment: Faker::Quote.singular_siegler,
     user_id: user2.id,
     movie_id: movie1.id
 )
 
+Review.create(
+    rating: rand(1..10),
+    comment: Faker::Quote.famous_last_words,
+    user_id: user3.id,
+    movie_id: movie1.id
+)
+Review.create(
+    rating: rand(1..10),
+    comment: Faker::Quote.famous_last_words,
+    user_id: user2.id,
+    movie_id: movie2.id
+)
+Review.create(
+    rating: rand(1..10),
+    comment: Faker::Quote.famous_last_words,
+    user_id: user3.id,
+    movie_id: movie2.id
+)
+Review.create(
+    rating: rand(1..10),
+    comment: Faker::Quote.famous_last_words,
+    user_id: user3.id,
+    movie_id: movie3.id
+)
+Review.create(
+    rating: rand(1..10),
+    comment: Faker::Quote.famous_last_words,
+    user_id: user2.id,
+    movie_id: movie3.id
+)
+Review.create(
+    rating: rand(1..10),
+    comment: Faker::Quote.singular_siegler,
+    user_id: user1.id,
+    movie_id: movie4.id
+)
+Review.create(
+    rating: rand(1..10),
+    comment: Faker::Quote.singular_siegler,
+    user_id: user2.id,
+    movie_id: movie4.id
+)
+Review.create(
+    rating: rand(1..10),
+    comment: Faker::Quote.singular_siegler,
+    user_id: user2.id,
+    movie_id: movie5.id
+)
+Review.create(
+    rating: rand(1..10),
+    comment: Faker::Quote.singular_siegler,
+    user_id: user3.id,
+    movie_id: movie5.id
+)
+Review.create(
+    rating: rand(1..10),
+    comment: Faker::Quote.singular_siegler,
+    user_id: user1.id,
+    movie_id: movie6.id
+)
+Review.create(
+    rating: rand(1..10),
+    comment: Faker::Quote.singular_siegler,
+    user_id: user2.id,
+    movie_id: movie6.id
+)
+Review.create(
+    rating: rand(1..10),
+    comment: Faker::Quote.singular_siegler,
+    user_id: user1.id,
+    movie_id: movie7.id
+)
+Review.create(
+    rating: rand(1..10),
+    comment: Faker::Quote.jack_handey,
+    user_id: user2.id,
+    movie_id: movie7.id
+)
+Review.create(
+    rating: rand(1..10),
+    comment: Faker::Quote.singular_siegler,
+    user_id: user1.id,
+    movie_id: movie8.id
+)
+Review.create(
+    rating: rand(1..10),
+    comment: Faker::Quote.jack_handey,
+    user_id: user2.id,
+    movie_id: movie8.id
+)
+Review.create(
+    rating: rand(1..10),
+    comment: Faker::Quote.singular_siegler,
+    user_id: user1.id,
+    movie_id: movie9.id
+)
+Review.create(
+    rating: rand(1..10),
+    comment: Faker::Quote.jack_handey,
+    user_id: user2.id,
+    movie_id: movie9.id
+)
+Review.create(
+    rating: rand(1..10),
+    comment: Faker::Quote.matz,
+    user_id: user2.id,
+    movie_id: movie10.id
+)
+Review.create(
+    rating: rand(1..10),
+    comment: Faker::Quote.jack_handey,
+    user_id: user3.id,
+    movie_id: movie10.id
+)
+Review.create(
+    rating: rand(1..10),
+    comment: Faker::Quote.matz,
+    user_id: user2.id,
+    movie_id: movie11.id
+)
+Review.create(
+    rating: rand(1..10),
+    comment: Faker::Quote.jack_handey,
+    user_id: user3.id,
+    movie_id: movie11.id
+)
+Review.create(
+    rating: rand(1..10),
+    comment: Faker::Quote.matz,
+    user_id: user2.id,
+    movie_id: movie12.id
+)
+Review.create(
+    rating: rand(1..10),
+    comment: Faker::Quote.jack_handey,
+    user_id: user3.id,
+    movie_id: movie12.id
+)
+Review.create(
+    rating: rand(1..10),
+    comment: Faker::Quote.matz,
+    user_id: user2.id,
+    movie_id: movie13.id
+)
+Review.create(
+    rating: rand(1..10),
+    comment: Faker::Quote.jack_handey,
+    user_id: user3.id,
+    movie_id: movie13.id
+)
+Review.create(
+    rating: rand(1..10),
+    comment: Faker::Quote.matz,
+    user_id: user2.id,
+    movie_id: movie14.id
+)
+Review.create(
+    rating: rand(1..10),
+    comment: Faker::Quote.jack_handey,
+    user_id: user3.id,
+    movie_id: movie14.id
+)
+Review.create(
+    rating: rand(1..10),
+    comment: Faker::Quote.most_interesting_man_in_the_world,
+    user_id: user1.id,
+    movie_id: movie15.id
+)
+Review.create(
+    rating: rand(1..10),
+    comment: Faker::Quote.jack_handey,
+    user_id: user3.id,
+    movie_id: movie15.id
+)
+Review.create(
+    rating: rand(1..10),
+    comment: Faker::Quote.most_interesting_man_in_the_world,
+    user_id: user1.id,
+    movie_id: movie16.id
+)
+Review.create(
+    rating: rand(1..10),
+    comment: Faker::Quote.robin,
+    user_id: user3.id,
+    movie_id: movie16.id
+)
+Review.create(
+    rating: rand(1..10),
+    comment: Faker::Quote.most_interesting_man_in_the_world,
+    user_id: user1.id,
+    movie_id: movie17.id
+)
+Review.create(
+    rating: rand(1..10),
+    comment: Faker::Quote.robin,
+    user_id: user3.id,
+    movie_id: movie17.id
+)
+Review.create(
+    rating: rand(1..10),
+    comment: Faker::Quote.most_interesting_man_in_the_world,
+    user_id: user1.id,
+    movie_id: movie18.id
+)
+Review.create(
+    rating: rand(1..10),
+    comment: Faker::Quote.robin,
+    user_id: user3.id,
+    movie_id: movie18.id
+)
+Review.create(
+    rating: rand(1..10),
+    comment: Faker::Quote.most_interesting_man_in_the_world,
+    user_id: user1.id,
+    movie_id: movie19.id
+)
+Review.create(
+    rating: rand(1..10),
+    comment: Faker::Quote.robin,
+    user_id: user3.id,
+    movie_id: movie19.id
+)
+Review.create(
+    rating: rand(1..10),
+    comment: Faker::Quote.most_interesting_man_in_the_world,
+    user_id: user1.id,
+    movie_id: movie20.id
+)
+Review.create(
+    rating: rand(1..10),
+    comment: Faker::Quote.robin,
+    user_id: user3.id,
+    movie_id: movie20.id
+)
+Review.create(
+    rating: rand(1..10),
+    comment: Faker::Quote.most_interesting_man_in_the_world,
+    user_id: user1.id,
+    movie_id: movie21.id
+)
+Review.create(
+    rating: rand(1..10),
+    comment: Faker::Quote.robin,
+    user_id: user3.id,
+    movie_id: movie21.id
+)
+Review.create(
+    rating: rand(1..10),
+    comment: Faker::Quote.most_interesting_man_in_the_world,
+    user_id: user2.id,
+    movie_id: movie22.id
+)
+Review.create(
+    rating: rand(1..10),
+    comment: Faker::Quote.robin,
+    user_id: user3.id,
+    movie_id: movie22.id
+)
+Review.create(
+    rating: rand(1..10),
+    comment: Faker::Quote.yoda,
+    user_id: user1.id,
+    movie_id: movie23.id
+)
+Review.create(
+    rating: rand(1..10),
+    comment: Faker::Quote.yoda,
+    user_id: user2.id,
+    movie_id: movie23.id
+)
 puts "✅ Done seeding!"
