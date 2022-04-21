@@ -175,6 +175,14 @@ movie23 = Movie.create(
     avg_rating: Faker::Number.number(digits: 1),
     image: 'kingrichard.jpeg'
 )
+
+movie24 = Movie.create(
+    name: "The Slap",
+    year: 2022,
+    avg_rating: 10,
+    image: 'slap.jpeg'
+)
+
 puts "Creating reviews..."
 Review.create(
     rating: rand(1..10),
@@ -459,4 +467,12 @@ Review.create(
     user_id: user2.id,
     movie_id: movie23.id
 )
+Review.create(
+    rating: 10,
+    comment: Faker::Quote.singular_siegler,
+    user_id: user1.id,
+    movie_id: movie24.id
+)
+
+
 puts "✅ Done seeding!"
